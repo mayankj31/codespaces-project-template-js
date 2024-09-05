@@ -31,12 +31,15 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "C/C++", 
+  "Python", 
+  "Data Structures and Algorithms", 
+  "Object Oriented Programming", 
+  "MySQL", 
+  "IOT", 
+  "Javascript", 
+  "MongoDB", 
+  "Node JS"
 ];
 
 /**
@@ -45,7 +48,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "An aspiring Software Professional possessing a strong foundation in Python and C/C++. Offers a comprehensive understanding of Software Development, underpinned by a strong commitment to problem solving and continuous learning. Eager to leverage technical expertise and analytical skills to contribute effectively to the company’s goals .";
 
 const About = () => {
   return (
