@@ -50,19 +50,19 @@ const Footer = (props) => {
         }}
       >
         {email && (
-          <a href={`mailto:${email}`}>
+          <a href={`mayankjugran81@gmail.com`}>
             <img src={envelopeIcon} alt="email" className="socialIcon" />
           </a>
         )}
         {gitHub && (
-          <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://github.com/mayankj31`} target="_blank" rel="noopener noreferrer">
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
           </a>
         )}
 
         {linkedIn && (
           <a
-            href={`https://www.linkedin.com/in/${linkedIn}`}
+            href={`www.linkedin.com/in/mayank-jugran-531479285`}
             target="_blank"
             rel="noopener noreferrer"
           >
