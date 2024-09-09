@@ -37,22 +37,22 @@ const projectList = [
     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Student Grade Analyzer",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A Java application built in NetBeans IDE for analyzing student grades. It calculates and displays statistical data such as average grades, highest and lowest grades, and individual student performance.",
+    url: "https://github.com/mayankj31/Student-Grade-Analyzer",
   },
   {
     title: "My Resume Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created a minimalist resume website designed with HTML and CSS featuring my personal details, skills, and professional experience showcasing foundational web development skills with a focus on clean and straightforward design.",
+    url: "https://github.com/mayankj31/Resume-Website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Weather Monitoring System",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Drove the coding efforts of an IOT based weather monitoring system built using ESP8266 & other sensors, which wirelessly transmits real-time weather parameters to a web interface for easy monitoring.",
+    url: "https://github.com/mayankj31/ESP-based-Weather-Monitoring-System",
   },
 ];
 

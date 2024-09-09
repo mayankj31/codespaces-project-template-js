@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am Mayank Jugran, a BTech student with strong skills in Python, MongoDB, React, and IoT. I have experience in web scraping, data management, and building software solutions gained through various internships. My key projects include smart attendance system, a student grade analyzer, and weather dashboards.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -48,7 +48,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "An aspiring Software Professional possessing a strong foundation in Python and C/C++. Offers a comprehensive understanding of Software Development, underpinned by a strong commitment to problem solving and continuous learning. Eager to leverage technical expertise and analytical skills to contribute effectively to the company’s goals .";
+  "An aspiring Software Professional possessing a strong foundation in Python and Web Development. Offers a comprehensive understanding of Data Structures and Algorithms underpinned by a strong commitment to problem solving and continuous learning. Eager to leverage technical expertise and analytical skills to contribute effectively to the company’s goals .";
 
 const About = () => {
   return (

@@ -3,8 +3,9 @@
  */
 
 import React from "react";
-import { render } from "react-dom";
-
+import { createRoot } from "react-dom/client"; // Updated import for React 18
 import App from "./App";
+import "./styles.css";
 
-render(<App></App>, document.getElementById("app"));
+const root = createRoot(document.getElementById("app")); // Create root element
+root.render(<App />); // Render App component

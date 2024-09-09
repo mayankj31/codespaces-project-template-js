@@ -10,6 +10,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import envelopeIcon from "../images/socials/envelope.svg";
 import gitHubIcon from "../images/socials/github.svg";
 import linkedInIcon from "../images/socials/linkedin.svg";
 /**
@@ -58,15 +59,7 @@ const Footer = (props) => {
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
           </a>
         )}
-        {instagram && (
-          <a
-            href={`https://www.instagram.com/${instagram}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={instagramIcon} alt="Instagram" className="socialIcon" />
-          </a>
-        )}
+
         {linkedIn && (
           <a
             href={`https://www.linkedin.com/in/${linkedIn}`}
