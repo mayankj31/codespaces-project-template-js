@@ -42,14 +42,14 @@ Ensure you have the following installed on your system:
 
 ## Installation
 ### Clone the repository :
-'git clone https://github.com/mayankj31/codespaces-project-template-js.git'
-'cd codespaces-project-template-js'
+`git clone https://github.com/mayankj31/codespaces-project-template-js.git`
+`cd codespaces-project-template-js`
 
 ### Install dependencies :
-'npm install'
+`npm install`
 
 ### Start the development server :
-'npm start'
+`npm start`
 This will open the app on http://localhost:1234.
 
 ## 🤝 Open to suggestions :
