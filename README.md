@@ -6,14 +6,14 @@ Through this project, I aimed to create a responsive and dynamic platform where 
 
 ## ✨ Features
 
-->GitHub Template Integration: This project was kickstarted with a pre-built GitHub template, providing a structured foundation for building a personal portfolio in React.
+-> GitHub Template Integration: This project was kickstarted with a pre-built GitHub template, providing a structured foundation for building a personal portfolio in React.
 
-->Responsive Design: The portfolio is optimized for viewing on all devices, from desktop to mobile, ensuring a seamless user experience.
+-> Responsive Design: The portfolio is optimized for viewing on all devices, from desktop to mobile, ensuring a seamless user experience.
 
-->Component-Based Structure: Each section of the site is built as a reusable React component, making it easy to update and expand over time.
+-> Component-Based Structure: Each section of the site is built as a reusable React component, making it easy to update and expand over time.
 
-->Dynamic Data Management: Core personal details like name, title, and social links are centrally managed in the code, allowing quick updates as needed.
+-> Dynamic Data Management: Core personal details like name, title, and social links are centrally managed in the code, allowing quick updates as needed.
 
-->Fast and Lightweight: Using Parcel as the bundler, the application remains highly optimized for performance, ensuring quick load times.
+-> Fast and Lightweight: Using Parcel as the bundler, the application remains highly optimized for performance, ensuring quick load times.
 
-->Customizable Styles: The design is easy to tweak and adapt, making it perfect for reflecting your unique brand.
+-> Customizable Styles: The design is easy to tweak and adapt, making it perfect for reflecting your unique brand.
