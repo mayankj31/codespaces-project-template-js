@@ -51,6 +51,7 @@ Ensure you have the following installed on your system:
 
 ### Start the development server :
 `npm start`
+
 This will open the app on http://localhost:1234.
 
 ## 🤝 Open to suggestions :
