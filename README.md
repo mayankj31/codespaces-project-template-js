@@ -17,3 +17,40 @@ Through this project, I aimed to create a responsive and dynamic platform where 
 -> Fast and Lightweight: Using Parcel as the bundler, the application remains highly optimized for performance, ensuring quick load times.
 
 -> Customizable Styles: The design is easy to tweak and adapt, making it perfect for reflecting your unique brand.
+
+## 🛠️ Technologies Used
+
+React: The core framework for building the UI of the application.
+
+Parcel: A zero-config bundler used for fast compilation and efficient asset handling.
+
+CSS: For styling the portfolio, ensuring a clean and modern look.
+
+JavaScript (ES6+): The main scripting language for handling logic within the React components.
+
+GitHub Pages: Used for deployment to host the portfolio online.
+
+## 🚀 Getting Started
+To get started with running this project locally, follow these steps:
+
+## Prerequisites
+Ensure you have the following installed on your system:
+
+-> Node.js (v14 or higher)
+
+-> npm (Node Package Manager)
+
+## Installation
+### Clone the repository :
+git clone https://github.com/mayankj31/codespaces-project-template-js.git
+cd codespaces-project-template-js
+
+### Install dependencies :
+npm install
+
+### Start the development server :
+npm start
+This will open the app on http://localhost:1234.
+
+## 🤝 Open to suggestions :
+Feel free to contribute to this project! If you have any suggestions, bug fixes, or new features in mind, I would love to see your pull requests and issues. Let's make this portfolio even better together!
