@@ -43,6 +43,7 @@ Ensure you have the following installed on your system:
 ## Installation
 ### Clone the repository :
 `git clone https://github.com/mayankj31/codespaces-project-template-js.git`
+
 `cd codespaces-project-template-js`
 
 ### Install dependencies :
