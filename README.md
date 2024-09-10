@@ -56,3 +56,12 @@ This will open the app on http://localhost:1234.
 
 ## 🤝 Open to suggestions :
 Feel free to contribute to this project! If you have any suggestions, bug fixes, or new features in mind, I would love to see your pull requests and issues. Let's make this portfolio even better together!
+
+![webp1](https://github.com/user-attachments/assets/7d539c76-a103-4680-8c52-3c47eca6665e)
+
+![webp2](https://github.com/user-attachments/assets/4d78dc50-f263-4759-b5e5-303e7cf838df)
+
+![webp3](https://github.com/user-attachments/assets/55859690-fb82-4952-a0da-40557b495186)
+
+![webp4](https://github.com/user-attachments/assets/4439372f-ab43-4cb6-a77f-9b791af654c5)
+
