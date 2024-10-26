@@ -1,12 +1,10 @@
 # React Portfolio Website
 ## 🌟 Overview
-Welcome to my Portfolio Website, a project I developed with the help of a GitHub template to build a modern JavaScript personal portfolio frontend using the React framework. This site is designed to showcase my personal brand, projects, and accomplishments as a software developer.
+Welcome to my Portfolio Website, a project I developed using the React framework. This site is designed to showcase my personal brand, projects, and accomplishments as a software developer.
 
 Through this project, I aimed to create a responsive and dynamic platform where visitors can easily navigate through my work, learn about my background, and connect with me via social media links. I hope you find the site informative and enjoyable to explore!
 
 ## ✨ Features
-
--> GitHub Template Integration: This project was kickstarted with a pre-built GitHub template, providing a structured foundation for building a personal portfolio in React.
 
 -> Responsive Design: The portfolio is optimized for viewing on all devices, from desktop to mobile, ensuring a seamless user experience.
 
@@ -42,9 +40,9 @@ Ensure you have the following installed on your system:
 
 ## Installation
 ### Clone the repository :
-`git clone https://github.com/mayankj31/codespaces-project-template-js.git`
+`git clone https://github.com/mayankj31/myportfolio`
 
-`cd codespaces-project-template-js`
+`cd myportfolio`
 
 ### Install dependencies :
 `npm install`
@@ -57,11 +55,8 @@ This will open the app on http://localhost:1234.
 ## 🤝 Open to suggestions :
 Feel free to contribute to this project! If you have any suggestions, bug fixes, or new features in mind, I would love to see your pull requests and issues. Let's make this portfolio even better together!
 
-![webp1](https://github.com/user-attachments/assets/7d539c76-a103-4680-8c52-3c47eca6665e)
+![image1](https://github.com/user-attachments/assets/fe708fa3-b24f-41ce-93e6-62b8d6a53932)
 
-![webp2](https://github.com/user-attachments/assets/4d78dc50-f263-4759-b5e5-303e7cf838df)
+![image2](https://github.com/user-attachments/assets/d7ca77ae-7fad-45ae-abad-eb17bac47e06)
 
-![webp3](https://github.com/user-attachments/assets/55859690-fb82-4952-a0da-40557b495186)
-
-![webp4](https://github.com/user-attachments/assets/4439372f-ab43-4cb6-a77f-9b791af654c5)
-
+![image3](https://github.com/user-attachments/assets/41101ac5-ab7b-405e-b16d-e3505c6e13f0)
