@@ -3,6 +3,7 @@ import Image1 from "../images/img1.jpg";
 import Image2 from "../images/img2.jpg";
 import Image3 from "../images/img3.jpg";
 import Image4 from "../images/img4.jpg";
+import image from "../images/design-desk.jpeg";
 
 const imageAltText = "desktop with books and laptop";
 
