@@ -34,7 +34,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "Aspiring Software Professional with a solid foundation in Python, C/C++, and web development. Skilled in building responsive web applications using Angular and React. Passionate about crafting efficient solutions and continuously enhancing technical expertise. Strong problem-solving skills and a dedication to innovation drive my commitment to contributing effectively to company goals. Eager to blend software development and web design skills to create impactful solutions in today’s digital landscape.";
+  "Aspiring Software Professional with a solid foundation in Python, C/C++, and web development. Skilled in building responsive web applications using Angular and React. Passionate about crafting efficient solutions and continuously enhancing technical expertise. Strong problem-solving skills and a dedication to innovation drive my commitment to contributing effectively to company goals.";
 
 const About = () => {
   return (
@@ -42,7 +42,7 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor:"white",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
