@@ -1,11 +1,8 @@
 /**
  * Footer component
- *
  * Displays avenues to contact you.
  * Contact information is passed in from the App component that
  * renders the Footer.
- *
- * If a social value has an empty string it will not be displayed.
  */
 import React from "react";
 import PropTypes from "prop-types";
@@ -13,12 +10,6 @@ import PropTypes from "prop-types";
 import envelopeIcon from "../images/socials/envelope.svg";
 import gitHubIcon from "../images/socials/github.svg";
 import linkedInIcon from "../images/socials/linkedin.svg";
-/**
- * 💡 Learning resources
- *
- *  HTML hyperlinks: https://www.w3schools.com/html/html_links.asp
- *  Opening links in new tabs: https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/
- */
 
 const Footer = (props) => {
   const {
@@ -50,20 +41,20 @@ const Footer = (props) => {
         }}
       >
         {email && (
-          <a href={`mailto:${email}`}>
+          <a href={`mailto:mayankjugran81@gmail.com`}>
             <img src={envelopeIcon} alt="email" className="socialIcon" />
           </a>
         )}
         {gitHub && (
-          <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://github.com/mayankj31`} target="_blank" rel="noopener noreferrer">
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
           </a>
         )}
 
         {linkedIn && (
           <a
-            href={`https://www.linkedin.com/in/${linkedIn}`}
-            target="_blank"
+            href={`https://www.linkedin.com/in/mayank-jugran-531479285`}
+            target="blank"
             rel="noopener noreferrer"
           >
             <img src={linkedInIcon} alt="LinkedIn" className="socialIcon" />

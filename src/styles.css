@@ -1,7 +1,3 @@
-/**
-* CSS file to hold styles that apply across the application
-*/
-
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
 
 html,
@@ -36,13 +32,47 @@ section.padding {
 section img.background {
   height: 95%;
   left: 50%;
-  object-fit:fill;
+  object-fit: fill;
   pointer-events: none;
   position: absolute;
   top: 0;
   transform: translate(-50%, 0);
   width: 100vmax;
   z-index: -1;
+}
+
+#portfolio {
+  position: relative;
+  background: url('./images/design-desk.jpeg') center center/cover no-repeat fixed;
+}
+
+#portfolio::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(250, 235, 215, 0.9);
+  z-index: 0;
+}
+
+#portfolio .container {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+#portfolio h2 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
 }
 
 h1 {
@@ -59,9 +89,9 @@ h2 {
   font-weight: 400;
   margin: 0;
   padding-top: 2rem;
-  white-space: nowrap; /* Prevent text from wrapping */
-  overflow: hidden; /* Hide overflow */
-  text-overflow: ellipsis; /* Add ellipsis if text overflows */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 h3 {
@@ -106,14 +136,8 @@ a:hover {
   color: #4e567e;
 }
 
-.container {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 330px 300px;
-  margin: 20px auto;
-}
-
 .container .box {
+  position: relative;
   border-radius: 10px;
   border: 1px solid rgb(204, 204, 204);
   display: flex;
@@ -121,9 +145,51 @@ a:hover {
   justify-content: flex-start;
   padding: 24px 16px;
   text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container .box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.container .box:hover .hover-image {
+  opacity: 1;
+  z-index: 1;
+}
+
+.container .box:hover h3,
+.container .box:hover p {
+  opacity: 0.3;
+}
+
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 0;
 }
 
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+@media (max-width: 768px) {
+  #portfolio .container {
+    grid-template-columns: 1fr;
+    padding: 0 15px;
+  }
+  
+  .container .box {
+    margin: 0 10px;
+  }
 }

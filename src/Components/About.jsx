@@ -5,17 +5,6 @@
  */
 
 import React from "react";
-
-/**
- * About background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
- * represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
- */
 import image from "../images/motion-background.jpg";
 
 const imageAltText = "purple and blue abstract background";
@@ -24,12 +13,8 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I am Mayank Jugran, a BTech student with strong skills in Python, MongoDB, React, and IoT. I have experience in web scraping, data management, and building software solutions gained through various internships. My key projects include smart attendance system, a student grade analyzer, and weather dashboards.";
+  "I’m Mayank Jugran, an aspiring software developer with expertise in JavaScript, React, and MongoDB. I create responsive, interactive applications and have experience with implementing CRUD functionality, server-side pagination, and IoT solutions like a smart attendance system. Passionate about delivering efficient solutions, I’m always ready to tackle new challenges.";
 
-/**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
- */
 const skillsList = [
   "C/C++", 
   "Python", 
@@ -37,7 +22,8 @@ const skillsList = [
   "Object Oriented Programming", 
   "MySQL", 
   "IOT", 
-  "Javascript", 
+  "Javascript",
+  "React", 
   "MongoDB", 
   "Node JS"
 ];
@@ -48,7 +34,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "An aspiring Software Professional possessing a strong foundation in Python and Web Development. Offers a comprehensive understanding of Data Structures and Algorithms underpinned by a strong commitment to problem solving and continuous learning. Eager to leverage technical expertise and analytical skills to contribute effectively to the company’s goals .";
+  "Aspiring Software Professional with a solid foundation in Python, C/C++, and web development. Skilled in building responsive web applications using Angular and React. Passionate about crafting efficient solutions and continuously enhancing technical expertise. Strong problem-solving skills and a dedication to innovation drive my commitment to contributing effectively to company goals. Eager to blend software development and web design skills to create impactful solutions in today’s digital landscape.";
 
 const About = () => {
   return (

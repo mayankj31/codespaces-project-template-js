@@ -1,80 +1,55 @@
-/**
- * Portfolio component
- *
- * Highlights some of  your creations. These can be designs, websites,
- * open source contributions, articles you've written and more.
- *
- * This is a great area for you to to continually add to and refine
- * as you continue to learn and create.
- */
-
 import React from "react";
-
-/**
- * Desk image
- *
- * Below is a sample desk image. Feel free to update this to an image of your choice,
- * updating below imageAltText to string that represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a photo you
- * freely use on your site.
- */
-import image from "../images/design-desk.jpeg";
+import Image1 from "../images/img1.jpg";
+import Image2 from "../images/img2.jpg";
+import Image3 from "../images/img3.jpg";
+import Image4 from "../images/img4.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
-/**
- * Project list
- *
- * An array of objects that will be used to display for your project
- * links section. Below is a sample, update to reflect links you'd like to highlight.
- */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Event Management Platform",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
-  },
-  {
-    title: "Student Grade Analyzer",
-    description:
-      "A Java application built in NetBeans IDE for analyzing student grades. It calculates and displays statistical data such as average grades, highest and lowest grades, and individual student performance.",
-    url: "https://github.com/mayankj31/Student-Grade-Analyzer",
-  },
-  {
-    title: "My Resume Site",
-    description:
-      "Created a minimalist resume website designed with HTML and CSS featuring my personal details, skills, and professional experience showcasing foundational web development skills with a focus on clean and straightforward design.",
-    url: "https://github.com/mayankj31/Resume-Website",
+      "Built using Angular, this platform allows users to browse, search, and manage events seamlessly. Key features include intuitive navigation, event browsing, search functionality, responsive design, and a carousel for showcasing featured events.",
+    url: "https://github.com/mayankj31/event-management-platform",
+    image: Image1,
   },
   {
     title: "Weather Monitoring System",
     description:
       "Drove the coding efforts of an IOT based weather monitoring system built using ESP8266 & other sensors, which wirelessly transmits real-time weather parameters to a web interface for easy monitoring.",
     url: "https://github.com/mayankj31/ESP-based-Weather-Monitoring-System",
+    image: Image2,
+  },
+  {
+    title: "Client Management Dashboard",
+    description:
+      "Built a responsive Client Management Dashboard with a React frontend and Node.js/Express backend. The system supports full CRUD operations, MySQL integration, and PDF generation for a seamless desktop experience.",
+    url: "https://github.com/mayankj31/Client-Management-Dashboard",
+    image: Image3,
+   },
+  {
+    title: "Housing and Mortgage Portal",
+    description:
+      "Created a responsive web page for customer login and mortgage management, featuring smooth animations, interactive tooltips, form validation with a password toggle, and custom CSS animations for an engaging user experience.",
+    url: "https://github.com/mayankj31/frontend-housing-page",
+    image: Image4,
   },
 ];
 
 const Portfolio = () => {
   return (
-    <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
-            src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
-            alt={imageAltText}
-          />
-        </div>
+    <section className="padding portfolio-section" id="portfolio">
+      <div className="portfolio-content">
+        <h2>Portfolio</h2>
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+                <h3>{project.title}</h3>
+                <p className="small">{project.description}</p>
+                <img src={project.image} alt={`${project.title} preview`} className="hover-image" />
               </a>
-              <p className="small">{project.description}</p>
             </div>
           ))}
         </div>
